@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(251, 222, 235);
+    font-size: large;
+
+}
+
+a:link {
+    color:rgb(39, 87, 58);
+}
+a:visited {
+    color:rgb(30, 67, 53);
+}
+.nav-underline .nav-item .nav-link:hover {
+    color: rgb(114, 165, 134) !important;
+}
+
+ul {
+    text-align: right;
+    list-style-type: none;
+}
+
+#kundvagn li {
+    text-align: left;
+    padding-left: 0;
+  }
+
+header {
+    background-image: url("../CatHeader.jpg");
+    background-size: 6cm;
+    background-position: top left;
+    background-repeat: repeat;
+    padding: 0.5cm;
+    text-align: center;
+    color: rgb(251, 222, 235); 
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:rgb(176, 93, 135);
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.custom-button {
+    background-color: aliceblue;
+}
+
+.rubrik {
+    text-align: center;
+    margin-top: 0.5cm;
+}
+
+.custom {
+    margin: 0.5cm;
+    padding: 0.5cm;
+}
+
+.img {
+    max-width: 4cm !important;
+    max-height: 4 cm !important;
+}
+p {
+    text-align: center;
+    font-size: large;
+}

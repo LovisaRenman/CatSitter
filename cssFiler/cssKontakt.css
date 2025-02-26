@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(251, 222, 235);
+}
+
+.container {
+    text-align: center;
+    margin-top: 1cm;
+}
+
+.rubrik {
+    text-align: center;
+    margin-top: 0.5cm;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+li {
+    font-size: large;    
+}
+
+.punkt {
+    font-size: larger;
+    font-weight:bold;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+}
+
+a:link {
+    color:rgb(39, 87, 58);
+}
+a:visited {
+    color:rgb(30, 67, 53);
+}
+.nav-underline .nav-item .nav-link:hover {
+    color: rgb(114, 165, 134) !important;
+}
+
+.map{
+    margin: auto;
+    display: block;
+}
+
+header {
+    background-image: url("../CatHeader.jpg");
+    background-size: 6cm;
+    background-position: top left;
+    background-repeat: repeat;
+    padding: 0.5cm;
+    text-align: center;
+    color: rgb(251, 222, 235); 
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:rgb(176, 93, 135); 
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: larger;
+}
