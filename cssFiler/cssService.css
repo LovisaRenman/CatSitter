@@ -52,10 +52,10 @@ header {
     padding: 0.5cm;
 }
 
-.img {
-    max-width: 4cm !important;
-    max-height: 4 cm !important;
+#contentCol{
+    min-height: 400px;
 }
+
 p {
     text-align: center;
     font-size: large;

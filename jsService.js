@@ -3,21 +3,27 @@ const ProductArray = [{
     src: "../CuteKitty.jpg",
     alt: "one cute kitty",
     btnId: "btnOpenHeldagModal",
-    modalTarget: "#HeldagModal"
+    modalTarget: "#HeldagModal",
+    height: 100,
+    witdh: 150
   },
   {
     name: "HalvDag",
     src: "../BlanketCat.jpg",
     alt: "two cute kittens",
     btnId: "btnOpenHalvdagModal",
-    modalTarget: "#HalvdagModal"
+    modalTarget: "#HalvdagModal",
+    height: 150,
+    witdh: 150
   },
   {
     name: "Tre Timmar",
     src: "../MotherlyLove.jpg",
     alt: "three cute kittens",
     btnId: "btnOpen3hModal",
-    modalTarget: "#3hModal"
+    modalTarget: "#3hModal",
+    height: 113,
+    witdh: 150
   }]
 
 function createProducts(ProductArray){
@@ -37,6 +43,9 @@ function createProducts(ProductArray){
         img.classList.add("object-fit-sm-contain", "border", "rounded", "img");
         img.src = product.src
         img.alt = product.alt
+        img.setAttribute('loading', 'lazy')
+        img.width = product.width
+        img.height = product.height
     
         const heading = document.createElement('h3')
         heading.classList.add("mb-0", "ms-3");
