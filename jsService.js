@@ -1,29 +1,29 @@
 const ProductArray = [{
     name: "Heldag",
-    src: "../CuteKitty.jpg",
+    src: "/CuteKitty.jpg",
     alt: "one cute kitty",
     btnId: "btnOpenHeldagModal",
     modalTarget: "#HeldagModal",
     height: 100,
-    witdh: 150
+    width: 150
   },
   {
     name: "HalvDag",
-    src: "../BlanketCat.jpg",
+    src: "/BlanketCat.jpg",
     alt: "two cute kittens",
     btnId: "btnOpenHalvdagModal",
     modalTarget: "#HalvdagModal",
     height: 150,
-    witdh: 150
+    width: 150
   },
   {
     name: "Tre Timmar",
-    src: "../MotherlyLove.jpg",
+    src: "/MotherlyLove.jpg",
     alt: "three cute kittens",
     btnId: "btnOpen3hModal",
     modalTarget: "#3hModal",
     height: 113,
-    witdh: 150
+    width: 150
   }]
 
 function createProducts(ProductArray){
